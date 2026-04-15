@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.env
+*.log
+
+# Base de datos
+*.db
+*.sqlite
+*.sqlite3
+database/data/
+database/*.db
+
+# Docker
+*.log
+.docker/
+docker-compose.override.yml
+
+# MQTT / Mosquitto
+mosquitto/data/
+mosquitto/log/
+mosquitto/*.db
+mosquitto/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Windows
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Secretos
+*.pem
+*.key
+secrets.yml
